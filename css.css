@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Poppins', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+.index {
+    /*Para Tirar a barra de rolagem vertical somente da pag. Index*/
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.quiz{
+    background-color: #f7f7f7;
+}
+
+
+/*=================*/
+/*=====NavBar======*/
+/*=================*/
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 28px !important;
+    color: #fff !important;
+}
+
+.navbar-toggler {
+    border-color: transparent !important;
+}
+
+.offcanvas {
+    background-color: #000 !important;
+}
+
+.btn-close {
+    padding: .5rem .5rem;
+    margin-top: -.5rem;
+    margin-right: -.5rem;
+    margin-bottom: -.5rem;
+    background-color: #fff !important;
+}
+
+/*=================*/
+/*====Carrosel=====*/
+/*=================*/
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 2.8rem !important;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 8% !important;
+}
+
+/*=================*/
+/*======Sobre======*/
+/*=================*/
+
+.sobre {
+    margin-top: -5%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background-color: #f7f7f7 !important;
+
+}
+
+.sobre-text {
+    font-size: 36px !important;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: inherit;
+    line-height: 1.2;
+}
+
+.sobre-text em {
+    font-style: normal;
+    color: #2b46dd;
+}
+
+.sobre-p {
+    font-size: 14px;
+    color: #666666;
+    line-height: 30px;
+}
+
+/*=================*/
+/*=====Contato=====*/
+/*=================*/
+
+.contato {
+    background-color: #232323;
+    margin-top: 15%;
+    color: #fff;
+}
+
+.contato-text h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.contato-text h4 {
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.contato-text iframe {
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+/*=================*/
+/*==Topo Empresa===*/
+/*=================*/
+.topo-empresa {
+    text-align: center;
+    background-image: url(img/page-heading-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 230px 0px 150px 0px;
+    color: #fff;
+}
+
+/*=================*/
+/*====Servicos=====*/
+/*=================*/
+
+.servicos {
+    margin-top: -5%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background-color: #f7f7f7 !important;
+}
+
+/*=================*/
+/*=====Contato=====*/
+/*=================*/
+
+.formulario {
+    padding: 160px 0px;
+    background-color: #f7f7f7 !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.formulario-titulo {
+    text-align: center;
+    color: #345a68;
+}
+
+form#contact input {
+    width: 100%;
+    height: 46px;
+    border-radius: 33px;
+    background-color: #d1f3ff;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: #2a2a2a;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+
+form#contact textarea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 180px;
+    min-height: 140px;
+    height: 140px;
+    border-radius: 20px;
+    background-color: #d1f3ff;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: #2a2a2a;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+form#contact button {
+    display: inline-block;
+    background-color: #03a4ed;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 12px 25px;
+    border-radius: 23px;
+    letter-spacing: 0.25px;
+    border: none;
+    outline: none;
+    transition: all .3s;
+}
+
+/*=================*/
+/*=======Quiz======*/
+/*=================*/
+
+.inicio-quiz {
+    margin-top: 140px;
+    background-color: #f7f7f7;
+}
+
+
+#tabs ul {
+    margin: 0;
+    padding: 0;
+}
+
+#tabs ul li {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+#tabs ul li:last-child {
+    margin-bottom: 0px;
+}
+
+#tabs ul li a {
+    text-transform: capitalize;
+    width: 100%;
+    padding: 30px 30px;
+    display: inline-block;
+    background-color: #dd2b2b;
+    font-size: 20px;
+    color: #121212;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    transition: all 0.3s;
+    text-decoration: none !important;
+}
+
+#tabs ul li a i {
+    float: right;
+    margin-top: 5px;
+}
+
+#tabs ul .ui-tabs-active span {
+    background: #faf5b2;
+    border: #faf5b2;
+    line-height: 90px;
+    border-bottom: none;
+}
+
+#tabs ul .ui-tabs-active a {
+    color: #fff;
+}
+
+#tabs ul .ui-tabs-active span {
+    color: #1e1e1e;
+}
+
+.tabs-content {
+    margin-left: 30px;
+    text-align: left;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.tabs-content img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.tabs-content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.tabs-content p {
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 0px;
+}
+
+
+/*=================*/
+/*=====Whatsapp====*/
+/*=================*/
+
+.whats-tam {
+    display: flex;
+    position: relative;
+    -moz-box-pack: start;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+}
+
+.whats-cor {
+    width: 50px;
+    height: 50px;
+    background: rgb(77, 194, 71) none repeat scroll 0% 0% !important;
+    order: 1;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 6px;
+    transition: all 0.5s ease 0s;
+    position: relative;
+    z-index: 200;
+    display: block;
+    border: 0px none;
+}
